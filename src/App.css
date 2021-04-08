@@ -1,38 +1,60 @@
 .App {
+  text-align: left;
+}
+
+.babyNames {
+  width:70%;
+  margin:auto;
+  border: 2px solid blue;
+  border-radius: 0.5rem;
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  display: inline-block;
+  text-align: center; 
+  margin: 0.5rem;
+  width: 5rem;
+  /* position: absolute; */
+  padding: 0.5rem;
+  border-radius: 0.3rem; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  margin: 2rem;
+  text-align: center;
+  width: 40%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.babyBoys {
+  background-color: rgba(98, 105, 3, 0.548);
 }
 
-.App-link {
-  color: #61dafb;
+.babyGirls {
+  background-color: rgba(121, 62, 121, 0.904);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.diamond {
+  text-align: auto;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: red;
+  position: relative;
+  top: -50px;
+}
+.diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: red;
+}
+
+.favorite {
+  border-bottom: 10px thin red;
 }
