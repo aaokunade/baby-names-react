@@ -35,6 +35,10 @@ p {
   background-color: rgba(121, 62, 121, 0.904);
 }
 
+.neutral {
+  background-color: rgb(0, 255, 136);
+}
+
 .diamond {
   text-align: auto;
   width: 0;
@@ -57,4 +61,27 @@ p {
 
 .favorite {
   border-bottom: 10px thin red;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+
+.gender{
+/* width: 4rem; */
+padding-top:1.5rem;
+}
+
+button {
+  width:5rem;
+  height: 3rem;
+  border-radius: 0.4rem ;
+  margin: 1.0rem 1.0rem;
+}
+
+.active {
+  border-bottom: 0.4rem solid black;
+  border-radius: 0.4rem;
 }

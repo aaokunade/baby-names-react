@@ -4,7 +4,7 @@ const Favourites = (props) => {
 return( 
 <div  className = "favorite">
 <p>Favourites: </p>
-<BabyNameFunc names = {props.favNames} />
+<BabyNameFunc names = {props.favNames} handleFavourites = {props.handleRemoveFavourite}/>
 <hr></hr>
 </div>
 )
