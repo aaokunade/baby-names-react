@@ -22,9 +22,12 @@ p {
 }
 
 .input {
-  margin: 2rem;
+  /* margin: 2rem; */
   text-align: center;
-  width: 40%;
+  width:15rem;
+  height: 3rem;
+  padding-top: 0.5rem;
+  border-radius: 0.4rem ;
 }
 
 .babyBoys {
@@ -33,6 +36,10 @@ p {
 
 .babyGirls {
   background-color: rgba(121, 62, 121, 0.904);
+}
+
+.neutral {
+  background-color: rgb(102, 124, 114);
 }
 
 .diamond {
@@ -57,4 +64,33 @@ p {
 
 .favorite {
   border-bottom: 10px thin red;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gender{
+/* width: 4rem; */
+padding-top: 0.5rem;
+}
+
+button {
+  width:5rem;
+  height: 3rem;
+  border-radius: 0.4rem ;
+  margin: 0rem 1.0rem 1.0rem 0rem;
+}
+
+.active {
+  border-bottom: 0.4rem solid black;
+  border-radius: 0.4rem;
+}
+
+.classIcon {
+  width: 4rem;
+  height: 2.5rem;
+  color: rgb(245, 248, 250);
 }
