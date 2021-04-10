@@ -67,7 +67,7 @@ const BabyNameFiles = () => {
     }
 
     const handleAll = (event) => {
-      const genderSelected = event.target.parentNode.childNodes;
+      const genderSelected = event.currentTarget.parentNode.childNodes;
       genderSelected.forEach((ls) => {
         if(ls.classList.contains("neutral")){
           ls.classList.add("active");
@@ -82,7 +82,7 @@ const BabyNameFiles = () => {
     }
 
     const handleBoys = (event) => {
-      const genderSelected = event.target.parentNode.childNodes;
+      const genderSelected = event.currentTarget.parentNode.childNodes;
       genderSelected.forEach((ls) => {
         if(ls.classList.contains("babyBoys")){
           ls.classList.add("active");
@@ -99,7 +99,7 @@ const BabyNameFiles = () => {
     }
 
     const handleGirls = (event) => {
-      const genderSelected = event.target.parentNode.childNodes;
+      const genderSelected = event.currentTarget.parentNode.childNodes;
       genderSelected.forEach((ls) => {
         if(ls.classList.contains("babyGirls")){
           ls.classList.add("active");
