@@ -85,12 +85,12 @@ button {
 }
 
 .active {
-  border-bottom: 0.4rem solid black;
+  border-bottom: 0.4rem solid rgb(228, 20, 20);
   border-radius: 0.4rem;
 }
 
 .classIcon {
-  width: 4rem;
-  height: 2.5rem;
-  color: rgb(245, 248, 250);
+  width: 4.0rem;
+  height: 2.0rem;
+  /* color: rgb(6, 13, 20); */
 }
